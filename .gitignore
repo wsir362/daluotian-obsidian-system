@@ -1,0 +1,56 @@
+# macOS
+.DS_Store
+
+# Obsidian local state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*_rsa
+*_dsa
+*_ecdsa
+*_ed25519
+
+# Local databases and generated state
+*.db
+*.sqlite
+*.sqlite3
+*.log
+.cache/
+.tmp/
+tmp/
+temp/
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+__pycache__/
+*.py[cod]
+
+# Private vault content
+10-项目/
+20-认知工具箱/
+30-研究/
+90-归档/
+00-行动中枢/Inbox/
+00-行动中枢/Today/
+00-行动中枢/Daily/
+造化司/memory/
+造化司/output/
+造化司/sessions/
